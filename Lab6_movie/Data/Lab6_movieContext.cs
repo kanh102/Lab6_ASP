@@ -15,5 +15,6 @@ namespace Lab6_movie.Data
         }
 
         public DbSet<Lab6_movie.Models.Genre> Genre { get; set; } = default!;
+        public DbSet<Lab6_movie.Models.Moviecs> Moviecs { get; set; } = default!;
     }
 }
